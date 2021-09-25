@@ -1,0 +1,134 @@
+body {
+    font-family: "Poppins", "Open Sans", Arial, Helvetica;
+}
+
+.loans-couple {
+    background-size: cover;
+    color: #fff;
+}
+
+.overlay-text {
+    margin-right: 100px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+    z-index: 1;
+    text-align: right;
+    font-size: 55px;
+    font-weight: regular;
+}
+
+#text-bold {
+    /* color: #303030; */
+    font-weight: bolder;
+}
+
+.enjoy {
+    color: #303030;
+    font-size: 30px;
+    font-weight: regular;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+/* two images */
+
+.two-img {
+    width: 100%;
+    /* height: 300px; */
+    overflow: hidden;
+    z-index: 0;
+}
+
+.overlay-title-left {
+    z-index: 1;
+    text-align: right;
+    margin-top: -300px;
+    margin-right: 20px;
+}
+
+.overlay-desc-left {
+    z-index: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.overlay-button-left {
+    z-index: 2;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+
+.overlay-title-right {
+    z-index: 1;
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 20px;
+    color: white;
+}
+
+.overlay-desc-right {
+    z-index: 1;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.overlay-button-right {
+    z-index: 2;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+/* add space */
+
+.add-space {
+    margin-top: 100px;
+}
+
+
+/* education */
+
+.overlay-title-edu {
+    z-index: 1;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -430px;
+}
+
+.overlay-desc-edu {
+    z-index: 1;
+    text-align: left;
+    margin-left: 100px;
+    /* margin-top: -300px; */
+}
+
+.overlay-button-edu {
+    margin-left: 100px;
+}
+
+
+/* advisor */
+
+.overlay-title-adv {
+    z-index: 1;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -400px;
+    color: white;
+}
+
+.overlay-desc-adv {
+    z-index: 1;
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+}
+
+.overlay-button-adv {
+    margin-left: 100px;
+}
