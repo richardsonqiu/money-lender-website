@@ -1,7 +1,3 @@
-body {
-    font-family: "Poppins", "Open Sans", Arial, Helvetica;
-}
-
 .loans-couple {
     background-size: cover;
     color: #fff;
@@ -81,13 +77,6 @@ body {
     float: left;
     margin-left: 20px;
     position: relative;
-}
-
-
-/* add space */
-
-.add-space {
-    margin-top: 100px;
 }
 
 
