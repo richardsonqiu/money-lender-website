@@ -6,6 +6,7 @@ body {
     position: relative;
 }
 
-.row {
-    /* width: 100%; */
+#text-bold {
+    color: #eed202;
+    font-weight: bolder;
 }

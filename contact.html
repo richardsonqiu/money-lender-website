@@ -22,12 +22,15 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/contact_styles.css" rel="stylesheet" />
 
+    <!-- Favicon -->
+    <link href="images/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
     <title>SG Money Lender</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">SG Money Lender</a>
+        <a class="navbar-brand" href="index.html">SG Money Lender</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -71,14 +74,17 @@
         <button type="button" class="btn btn-warning">Apply for Loan</button>
     </nav>
 
-    <div class="container">
-        <div class="row add-space">
-            <div class="col-6">
-                <h2>Contact Us</h2>
+    <div class="container-fluid">
+        <div class="row add-margin bg-yellow">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <h2><span id="text-bold">Contact</span> Us</h2>
                 <div class="row">
                     <div class="col">
                         <h4>Address</h4>
-                        <p>372 Bukit Batok Street 31<br>#01-374 (Level 2)<br>Singapore 650372</p>
+                        <p>
+                            372 Bukit Batok Street 31<br />#01-374 (Level 2)<br />Singapore 650372
+                        </p>
                     </div>
                     <div class="col">
                         <h4>Email</h4>
@@ -88,7 +94,7 @@
                 <div class="row">
                     <div class="col">
                         <h4>Opening Hours</h4>
-                        <p>Mon-Fri (0900h - 1800h)<br>Sat-Sun (0900h - 1500h)</p>
+                        <p>Mon-Fri (0900h - 1800h)<br />Sat-Sun (0900h - 1500h)</p>
                     </div>
                     <div class="col">
                         <h4>Phone</h4>
@@ -96,47 +102,69 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-5">
                 <div class="wpb_map_wraper">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6961257742837!2d103.74906966475405!3d1.358955799008866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da10361135a86d%3A0xaa0faea4fb11d87e!2sBest+Credit+%7C+Licensed+Moneylender+Singapore+%7C+Personal+Loan+Business+Loan+Review!5e0!3m2!1sen!2ssg!4v1550627260230"
-                        width="600" height="250" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe></div>
+                        width="600" height="250" frameborder="0" style="border: 0px; pointer-events: none" allowfullscreen=""></iframe>
+                </div>
             </div>
         </div>
-        <div class="row add-space">
-            <div class="col">
-                <img src="images/contact_couple.png">
+        <div class="row add-margin">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <img src="images/contact_couple.png" />
             </div>
-            <div class="col">
-                <h2>Ready to<br>Get Started?</h2>
+            <div class="col-5">
+                <h2><span id="text-bold">Ready</span> to<br />Get Started?</h2>
                 <p>Get preliminary approval in 30 minutes by applying here</p>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Full name *</span>
-                    </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="John Doe">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">HP no. *</span>
-                    </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="98765432">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Loan Amount * (SGD)</span>
-                    </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="10000">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Monthly Income * (SGD)</span>
-                    </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="3000">
-                </div>
+                        <span class="input-group-text" id="basic-addon3">Full name *</span
+              >
             </div>
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              placeholder="John Doe"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon3">HP no. *</span>
+                    </div>
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="98765432" />
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon3">Loan Amount * (SGD)</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              placeholder="10000"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon3"
+                >Monthly Income * (SGD)</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              placeholder="3000"
+            />
+          </div>
         </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
