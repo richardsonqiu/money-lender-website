@@ -2,9 +2,10 @@ body {
     font-family: "Poppins", "Open Sans", Arial, Helvetica;
 }
 
+.container {
+    position: relative;
+}
 
-/* add space */
-
-.add-space {
-    margin-top: 100px;
+.row {
+    /* width: 100%; */
 }
