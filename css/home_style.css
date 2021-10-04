@@ -236,27 +236,3 @@ img.fill {
 .carousel-text p {
   color: var(--gray-color);
 }
-
- footer {
-  background-color:var(--gray-color);  
-  padding: 80px 200px 40px 200px; 
-  line-height: 1.6em;
-}
-    
-footer h4 {
-  color: var(--orange-color);
-  font-weight: bold;
-}
-
-footer a {
-  color: var(--light-color);
-}
-
-footer a:hover {
-  color:var(--orange-color);
-}
-
-footer .button-filled:hover{
-  color:var(--gray-color);
-  background-color:var(--light-color);
-}
