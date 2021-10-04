@@ -42,3 +42,11 @@ footer {
     color:var(--gray-color);
     background-color:var(--light-color);
   }
+
+  footer .dark-text h2{
+    color: var(--orange-color)
+  }
+footer  .dark-text {
+    color: var(--light-color)
+  }
+  
