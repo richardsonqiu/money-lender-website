@@ -1,7 +1,7 @@
 :root {
   --gray-color: #2F2F2F;
-  --darkorange-color: #D18711;
-  --orange-color: #F59B09;
+  --darkorange-color: #dda919;
+  --orange-color: #ecb90f;
   --light-color: #FDF7F0;
 }
 
@@ -27,11 +27,15 @@ h1, h2, h3, h5 {
   font-weight: bold;
 }
 
-
+h2 span{
+  color: var(--orange-color);
+}
 
 .button-filled {
   border: none;
+  border-radius: 8px;
   outline: 0;
+  
   display: inline-block;
   padding: 10px 25px;
   color: var(--light-color);
@@ -43,6 +47,7 @@ h1, h2, h3, h5 {
 
 .button-filled:hover {
   text-decoration: underline;
+  border-radius: 8px;
   background-color:  var(--gray-color);
   color: white;
 }
@@ -50,6 +55,7 @@ h1, h2, h3, h5 {
 .button-unfilled {
   border-color:  var(--orange-color);
   border-width: 1px;
+  border-radius: 8px;
   display: inline-block;
   padding: 10px 25px;
   color:  var(--orange-color);
@@ -60,6 +66,7 @@ h1, h2, h3, h5 {
 
 .button-unfilled:hover {
   text-decoration: underline;
+  border-radius: 8px;
   background-color: var(--orange-color);
   color: white;
 }
@@ -67,6 +74,7 @@ h1, h2, h3, h5 {
 
 .button-translucent {
   border-color:  transparent;
+  border-radius: 8px;
   border-width: 0px;
   display: inline-block;
   padding: 10px 25px;
@@ -78,6 +86,7 @@ h1, h2, h3, h5 {
 
 .button-translucent:hover {
   text-decoration: underline;
+  border-radius: 8px;
   background-color: rgb(255, 255, 255);
   color: var(--darkorange-color);
 }
