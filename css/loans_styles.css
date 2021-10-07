@@ -5,6 +5,13 @@
     --light-color: #FDF7F0;
 }
 
+:target:before {
+    content: "";
+    /* display: block; */
+    height: 1000px;
+    margin: 100px 0 0;
+}
+
 .horizontal-img {
     height: calc(100vh - 56px);
     /* display: flex; */

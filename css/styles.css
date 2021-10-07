@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --gray-color: #2F2F2F;
     --darkorange-color: #dda919;
@@ -31,6 +35,8 @@ body {
     color: var(--orange-color) !important;
     font-weight: bold;
     margin: 4px 24px;
+    display: flex;
+    align-items: center;
 }
 
 .itemtitle:hover {
