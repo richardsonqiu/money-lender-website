@@ -1,5 +1,5 @@
 <h1>SG Money Lender Website</h1>
-This website is built only for EE/IM4717 Project usage<br>
+This website is built only for CS2024 Project usage<br>
 Take a look here at the <a href="https://richardsonqiu.github.io/sg-money-lender/">Live Preview</a>
 
 <h2>Objective</h2>
